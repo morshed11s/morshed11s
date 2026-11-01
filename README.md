@@ -30,7 +30,7 @@
 
 <p align="left"><b style="color: #7d6bb8;">☁️ Cloud &amp; DevOps</b></p>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,ansible,jenkins,nginx,linux&theme=light&perline=8" alt="AWS, Docker, Kubernetes, Terraform, Ansible, Jenkins, Nginx, Linux" style="display: block; border-radius: 12px; filter: drop-shadow(0 8px 18px rgba(150, 168, 222, 0.15));"/>
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,jenkins,linux&theme=light&perline=8" alt="AWS, Docker, Kubernetes, Terraform, Jenkins, Linux" style="display: block; border-radius: 12px; filter: drop-shadow(0 8px 18px rgba(150, 168, 222, 0.15));"/>
 </p>
 
 <p align="left"><b style="color: #7d6bb8;">💻 Languages &amp; Frameworks</b></p>
@@ -40,7 +40,7 @@
 
 <p align="left"><b style="color: #7d6bb8;">🗄️ Databases &amp; Tools</b></p>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=mysql,git,github,githubactions,vscode,postman&theme=light&perline=8" alt="MySQL, Git, GitHub, GitHub Actions, VS Code, Postman" style="display: block; border-radius: 12px; filter: drop-shadow(0 8px 18px rgba(150, 168, 222, 0.15));"/>
+  <img src="https://skillicons.dev/icons?i=mysql,git,github,githubactions,vscode&theme=light&perline=8" alt="MySQL, Git, GitHub, GitHub Actions, VS Code" style="display: block; border-radius: 12px; filter: drop-shadow(0 8px 18px rgba(150, 168, 222, 0.15));"/>
 </p>
 
 <p align="left"><img src="./assets/divider.svg" width="100%" alt="" style="display: block; filter: saturate(1.2) drop-shadow(0 8px 12px rgba(186, 155, 214, 0.12));"/></p>
@@ -62,4 +62,3 @@
 </p>
 
 </div>
-

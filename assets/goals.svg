@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 340" width="1100" height="340">
   <defs>
     <linearGradient id="done" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2c5364"/>
-      <stop offset="100%" stop-color="#66bb6a"/>
+      <stop offset="0%" stop-color="#c9c0ff"/>
+      <stop offset="100%" stop-color="#a4d8c4"/>
     </linearGradient>
     <style>
-      .l  { font: 700 17px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffffff; }
-      .s  { font: 400 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #94a3b8; }
+      .l  { font: 700 17px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #4d486c; }
+      .s  { font: 400 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #707391; }
       .pt { font: 700 11px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 1.5px; }
       .bar { transform-box: fill-box; transform-origin: left center; animation: grow 1.4s ease-out backwards; }
       .b1 { animation-delay: 0.2s; } .b2 { animation-delay: 0.5s; }
@@ -16,41 +16,37 @@
     </style>
   </defs>
 
-  <rect x="1" y="1" width="1098" height="338" rx="16" fill="#0d1b22" stroke="#2c5364" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1098" height="338" rx="16" fill="#fffafc" stroke="#e7dffe" stroke-width="1.5"/>
 
-  <!-- Row 1 -->
-  <circle cx="50" cy="52" r="14" fill="#66bb6a"/>
-  <path d="M43 52 l5 5 l9 -10" fill="none" stroke="#0d1b22" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="52" r="14" fill="#a5d8b1"/>
+  <path d="M43 52 l5 5 l9 -10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="80" y="50" class="l">Hands-on AWS</text>
   <text x="80" y="70" class="s">VPC, EC2, S3, RDS/Aurora, Lambda, Route 53, CloudFront</text>
-  <rect x="980" y="36" width="90" height="24" rx="12" fill="#66bb6a" fill-opacity="0.15" stroke="#66bb6a"/>
-  <text x="1025" y="52" text-anchor="middle" class="pt" fill="#66bb6a">DONE</text>
-  <rect x="80" y="82" width="990" height="6" rx="3" fill="#1e3440"/>
+  <rect x="980" y="36" width="90" height="24" rx="12" fill="#bfead0" fill-opacity="0.8" stroke="#8ec9a7"/>
+  <text x="1025" y="52" text-anchor="middle" class="pt" fill="#4e8d67">DONE</text>
+  <rect x="80" y="82" width="990" height="6" rx="3" fill="#efe9f9"/>
   <rect class="bar b1" x="80" y="82" width="990" height="6" rx="3" fill="url(#done)"/>
 
-  <!-- Row 2 -->
-  <circle cx="50" cy="130" r="14" fill="#66bb6a"/>
-  <path d="M43 130 l5 5 l9 -10" fill="none" stroke="#0d1b22" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="130" r="14" fill="#a5d8b1"/>
+  <path d="M43 130 l5 5 l9 -10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="80" y="128" class="l">Containers &amp; Orchestration</text>
   <text x="80" y="148" class="s">Docker images, Kubernetes deployments and services</text>
-  <rect x="980" y="114" width="90" height="24" rx="12" fill="#66bb6a" fill-opacity="0.15" stroke="#66bb6a"/>
-  <text x="1025" y="130" text-anchor="middle" class="pt" fill="#66bb6a">DONE</text>
-  <rect x="80" y="160" width="990" height="6" rx="3" fill="#1e3440"/>
+  <rect x="980" y="114" width="90" height="24" rx="12" fill="#bfead0" fill-opacity="0.8" stroke="#8ec9a7"/>
+  <text x="1025" y="130" text-anchor="middle" class="pt" fill="#4e8d67">DONE</text>
+  <rect x="80" y="160" width="990" height="6" rx="3" fill="#efe9f9"/>
   <rect class="bar b2" x="80" y="160" width="990" height="6" rx="3" fill="url(#done)"/>
 
-  <!-- Row 3 -->
-  <circle cx="50" cy="208" r="13" fill="none" stroke="#ffb74d" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <circle cx="50" cy="208" r="13" fill="none" stroke="#f6c98d" stroke-width="2.5" stroke-dasharray="4 3"/>
   <text x="80" y="206" class="l">AWS Certified Cloud Practitioner</text>
   <text x="80" y="226" class="s">Foundational AWS certification</text>
-  <rect class="next" x="980" y="192" width="90" height="24" rx="12" fill="#ffb74d" fill-opacity="0.15" stroke="#ffb74d"/>
-  <text x="1025" y="208" text-anchor="middle" class="pt" fill="#ffb74d">UP NEXT</text>
-  <rect x="80" y="238" width="990" height="6" rx="3" fill="#1e3440"/>
+  <rect class="next" x="980" y="192" width="90" height="24" rx="12" fill="#f8e5b7" fill-opacity="0.7" stroke="#efc57d"/>
+  <text x="1025" y="208" text-anchor="middle" class="pt" fill="#b6782d">UP NEXT</text>
+  <rect x="80" y="238" width="990" height="6" rx="3" fill="#efe9f9"/>
 
-  <!-- Row 4 -->
-  <circle cx="50" cy="286" r="13" fill="none" stroke="#ffb74d" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <circle cx="50" cy="286" r="13" fill="none" stroke="#f6c98d" stroke-width="2.5" stroke-dasharray="4 3"/>
   <text x="80" y="284" class="l">AWS Certified Solutions Architect – Associate</text>
   <text x="80" y="304" class="s">Designing resilient, cost-aware architectures on AWS</text>
-  <rect class="next" x="980" y="270" width="90" height="24" rx="12" fill="#ffb74d" fill-opacity="0.15" stroke="#ffb74d"/>
-  <text x="1025" y="286" text-anchor="middle" class="pt" fill="#ffb74d">UP NEXT</text>
-  <rect x="80" y="316" width="990" height="6" rx="3" fill="#1e3440"/>
+  <rect class="next" x="980" y="270" width="90" height="24" rx="12" fill="#f8e5b7" fill-opacity="0.7" stroke="#efc57d"/>
+  <text x="1025" y="286" text-anchor="middle" class="pt" fill="#b6782d">UP NEXT</text>
+  <rect x="80" y="316" width="990" height="6" rx="3" fill="#efe9f9"/>
 </svg>

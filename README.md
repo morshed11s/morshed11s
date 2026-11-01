@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="./assets/banner.svg" width="100%" alt="Sumaiya Morshed — DevOps, Cloud, Software Engineering"/>
 </p>
 
@@ -58,3 +58,4 @@
 <p align="center">
   <img src="./assets/footer.svg" width="100%" alt=""/>
 </p>
+

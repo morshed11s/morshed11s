@@ -44,11 +44,11 @@
   <path class="wave1" d="M0 230 C200 200 400 260 600 230 S1000 200 1260 230 V280 H0 Z" fill="url(#wave1)" opacity="0.62"/>
   <path class="wave2" d="M0 250 C250 225 450 275 700 250 S1050 225 1260 250 V280 H0 Z" fill="#d7c9ff" opacity="0.55"/>
 
-  <text x="60" y="110" class="name">Sumaiya Morshed</text>
-  <text x="63" y="148" class="sub">DEVOPS • CLOUD • SOFTWARE ENGINEERING</text>
+  <text x="48" y="110" text-anchor="start" class="name">Sumaiya Morshed</text>
+  <text x="48" y="148" text-anchor="start" class="sub">DEVOPS • CLOUD • SOFTWARE ENGINEERING</text>
 
-  <text x="63" y="198" class="line l1">&gt; Building infrastructure that just works ☁️</text>
-  <text x="63" y="198" class="line l2">&gt; Terraform • Docker • Kubernetes • AWS</text>
-  <text x="63" y="198" class="line l3">&gt; Java &amp; Spring Boot developer</text>
-  <text x="63" y="198" class="line l4">&gt; Automating everything I touch 🤖</text>
+  <text x="48" y="198" text-anchor="start" class="line l1">&gt; Building infrastructure that just works ☁️</text>
+  <text x="48" y="198" text-anchor="start" class="line l2">&gt; Terraform • Docker • Kubernetes • AWS</text>
+  <text x="48" y="198" text-anchor="start" class="line l3">&gt; Java &amp; Spring Boot developer</text>
+  <text x="48" y="198" text-anchor="start" class="line l4">&gt; Automating everything I touch 🤖</text>
 </svg>

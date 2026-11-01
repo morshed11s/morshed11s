@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 230" width="1100" height="230">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#13262f"/>
+      <stop offset="100%" stop-color="#0d1b22"/>
+    </linearGradient>
+    <linearGradient id="topbar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4fc3f7"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <style>
+      .t  { font: 700 20px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffffff; }
+      .d  { font: 400 14px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+      .tl { font: 500 13px Consolas, Menlo, 'Courier New', monospace; fill: #4fc3f7; }
+      .c  { animation: up 0.6s ease-out backwards; }
+      .c1 { animation-delay: 0.1s; } .c2 { animation-delay: 0.35s; } .c3 { animation-delay: 0.6s; }
+      @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+  </defs>
+
+  <!-- Card 1: Cloud -->
+  <g class="c c1">
+    <rect x="10" y="15" width="340" height="200" rx="16" fill="url(#card)" stroke="#2c5364" stroke-width="1.5"/>
+    <rect x="30" y="15" width="300" height="4" rx="2" fill="url(#topbar)"/>
+    <circle cx="60" cy="72" r="28" fill="#4fc3f7" fill-opacity="0.15"/>
+    <path d="M46 82 h28 a9 9 0 0 0 0 -18 a12 12 0 0 0 -23 -3 a8 8 0 0 0 -5 21 z" fill="none" stroke="#4fc3f7" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="104" y="79" class="t">Cloud Infrastructure</text>
+    <text x="35" y="132" class="d">Secure VPCs, private subnets, load</text>
+    <text x="35" y="154" class="d">balancers and CDNs on AWS</text>
+    <text x="35" y="192" class="tl">EC2 · VPC · ALB · CloudFront</text>
+  </g>
+
+  <!-- Card 2: CI/CD -->
+  <g class="c c2">
+    <rect x="380" y="15" width="340" height="200" rx="16" fill="url(#card)" stroke="#2c5364" stroke-width="1.5"/>
+    <rect x="400" y="15" width="300" height="4" rx="2" fill="url(#topbar)"/>
+    <circle cx="430" cy="72" r="28" fill="#4fc3f7" fill-opacity="0.15"/>
+    <path d="M430 72 c-6 -9 -18 -9 -18 0 s12 9 18 0 c6 -9 18 -9 18 0 s-12 9 -18 0 z" fill="none" stroke="#4fc3f7" stroke-width="2.5"/>
+    <text x="474" y="79" class="t">CI/CD &amp; Automation</text>
+    <text x="405" y="132" class="d">Pipelines that build, test and scan</text>
+    <text x="405" y="154" class="d">code before it ships</text>
+    <text x="405" y="192" class="tl">Jenkins · Bash · Python · Ansible</text>
+  </g>
+
+  <!-- Card 3: Containers & IaC -->
+  <g class="c c3">
+    <rect x="750" y="15" width="340" height="200" rx="16" fill="url(#card)" stroke="#2c5364" stroke-width="1.5"/>
+    <rect x="770" y="15" width="300" height="4" rx="2" fill="url(#topbar)"/>
+    <circle cx="800" cy="72" r="28" fill="#4fc3f7" fill-opacity="0.15"/>
+    <g fill="none" stroke="#4fc3f7" stroke-width="2.5">
+      <rect x="786" y="58" width="12" height="12" rx="2"/>
+      <rect x="802" y="58" width="12" height="12" rx="2"/>
+      <rect x="786" y="74" width="12" height="12" rx="2"/>
+      <rect x="802" y="74" width="12" height="12" rx="2"/>
+    </g>
+    <text x="844" y="79" class="t">Containers &amp; IaC</text>
+    <text x="775" y="132" class="d">Reproducible apps and infrastructure</text>
+    <text x="775" y="154" class="d">defined entirely as code</text>
+    <text x="775" y="192" class="tl">Docker · Kubernetes · Terraform</text>
+  </g>
+</svg>

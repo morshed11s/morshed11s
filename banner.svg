@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <style>
+      .name { font: 700 58px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffffff; letter-spacing: 1px; }
+      .sub  { font: 400 20px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #b3e5fc; letter-spacing: 3px; }
+      .line { font: 500 20px Consolas, 'Courier New', monospace; fill: #4fc3f7; opacity: 0; }
+      .l1 { animation: show 12s infinite 0s; }
+      .l2 { animation: show 12s infinite 3s; }
+      .l3 { animation: show 12s infinite 6s; }
+      .l4 { animation: show 12s infinite 9s; }
+      @keyframes show {
+        0%   { opacity: 0; }
+        3%   { opacity: 1; }
+        22%  { opacity: 1; }
+        25%  { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .wave1 { animation: drift 10s ease-in-out infinite alternate; }
+      .wave2 { animation: drift 14s ease-in-out infinite alternate-reverse; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-60px); } }
+      .cursor { fill: #4fc3f7; animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+
+  <g opacity="0.18">
+    <circle cx="90" cy="60" r="2" fill="#fff"/><circle cx="260" cy="40" r="1.5" fill="#fff"/>
+    <circle cx="980" cy="50" r="2" fill="#fff"/><circle cx="1110" cy="90" r="1.5" fill="#fff"/>
+    <circle cx="700" cy="30" r="1.5" fill="#fff"/><circle cx="420" cy="80" r="1.2" fill="#fff"/>
+  </g>
+
+  <path class="wave1" d="M0 230 C200 200 400 260 600 230 S1000 200 1260 230 V280 H0 Z" fill="#4fc3f7" opacity="0.10"/>
+  <path class="wave2" d="M0 250 C250 225 450 275 700 250 S1050 225 1260 250 V280 H0 Z" fill="#4fc3f7" opacity="0.16"/>
+
+  <text x="600" y="110" text-anchor="middle" class="name">Sumaiya Morshed</text>
+  <text x="600" y="148" text-anchor="middle" class="sub">DEVOPS • CLOUD • SOFTWARE ENGINEERING</text>
+
+  <text x="600" y="198" text-anchor="middle" class="line l1">&gt; Building infrastructure that just works ☁️</text>
+  <text x="600" y="198" text-anchor="middle" class="line l2">&gt; Terraform • Docker • Kubernetes • AWS</text>
+  <text x="600" y="198" text-anchor="middle" class="line l3">&gt; Java &amp; Spring Boot developer</text>
+  <text x="600" y="198" text-anchor="middle" class="line l4">&gt; Automating everything I touch 🤖</text>
+</svg>

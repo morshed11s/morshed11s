@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 240" width="1100" height="240">
   <defs>
     <linearGradient id="track" gradientUnits="userSpaceOnUse" x1="110" y1="0" x2="990" y2="0">
-      <stop offset="0%" stop-color="#30363d"/>
-      <stop offset="100%" stop-color="#58a6ff"/>
+      <stop offset="0%" stop-color="#3f3f46"/>
+      <stop offset="100%" stop-color="#d4d4d8"/>
     </linearGradient>
     <style>
-      .yr { font: 600 15px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #79c0ff; letter-spacing: 1px; }
-      .ti { font: 600 14px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #e6edf3; }
-      .pl { font: 400 13px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #c9d1d9; }
-      .lo { font: 400 12px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #8b949e; }
+      .yr { font: 600 15px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #e4e4e7; letter-spacing: 1px; }
+      .ti { font: 600 14px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #fafafa; }
+      .pl { font: 400 13px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #d4d4d8; }
+      .lo { font: 400 12px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #a1a1aa; }
       .line { stroke-dasharray: 880; animation: draw 2s ease-out backwards; }
       @keyframes draw { from { stroke-dashoffset: 880; } to { stroke-dashoffset: 0; } }
       .n { animation: pop 0.5s ease-out backwards; }
@@ -20,13 +20,13 @@
     </style>
   </defs>
 
-  <rect x="0.5" y="0.5" width="1099" height="239" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <rect x="0.5" y="0.5" width="1099" height="239" rx="12" fill="#18181b" stroke="#3f3f46"/>
   <line class="line" x1="110" y1="70" x2="990" y2="70" stroke="url(#track)" stroke-width="2" stroke-linecap="round"/>
 
   <g class="n n1">
     <text x="110" y="46" text-anchor="middle" class="yr">2022</text>
-    <circle cx="110" cy="70" r="7" fill="#0d1117" stroke="#8b949e" stroke-width="2.5"/>
-    <rect x="15.5" y="100.5" width="189" height="115" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="110" cy="70" r="7" fill="#18181b" stroke="#a1a1aa" stroke-width="2.5"/>
+    <rect x="15.5" y="100.5" width="189" height="115" rx="10" fill="#232327" stroke="#3f3f46"/>
     <text x="110" y="137" text-anchor="middle" class="ti">Started B.Sc. in CS</text>
     <text x="110" y="162" text-anchor="middle" class="pl">Asian University for Women</text>
     <text x="110" y="188" text-anchor="middle" class="lo">Chattogram</text>
@@ -34,8 +34,8 @@
 
   <g class="n n2">
     <text x="330" y="46" text-anchor="middle" class="yr">2022–23</text>
-    <circle cx="330" cy="70" r="7" fill="#0d1117" stroke="#8b949e" stroke-width="2.5"/>
-    <rect x="235.5" y="100.5" width="189" height="115" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="330" cy="70" r="7" fill="#18181b" stroke="#a1a1aa" stroke-width="2.5"/>
+    <rect x="235.5" y="100.5" width="189" height="115" rx="10" fill="#232327" stroke="#3f3f46"/>
     <text x="330" y="137" text-anchor="middle" class="ti">Research Intern</text>
     <text x="330" y="162" text-anchor="middle" class="pl">BILS</text>
     <text x="330" y="188" text-anchor="middle" class="lo">Chattogram</text>
@@ -43,8 +43,8 @@
 
   <g class="n n3">
     <text x="550" y="46" text-anchor="middle" class="yr">2024</text>
-    <circle cx="550" cy="70" r="7" fill="#0d1117" stroke="#8b949e" stroke-width="2.5"/>
-    <rect x="455.5" y="100.5" width="189" height="115" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="550" cy="70" r="7" fill="#18181b" stroke="#a1a1aa" stroke-width="2.5"/>
+    <rect x="455.5" y="100.5" width="189" height="115" rx="10" fill="#232327" stroke="#3f3f46"/>
     <text x="550" y="137" text-anchor="middle" class="ti">Summer Exchange</text>
     <text x="550" y="162" text-anchor="middle" class="pl">The University of Tokyo</text>
     <text x="550" y="188" text-anchor="middle" class="lo">Japan</text>
@@ -52,8 +52,8 @@
 
   <g class="n n4">
     <text x="770" y="46" text-anchor="middle" class="yr">2025</text>
-    <circle cx="770" cy="70" r="7" fill="#0d1117" stroke="#8b949e" stroke-width="2.5"/>
-    <rect x="675.5" y="100.5" width="189" height="115" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="770" cy="70" r="7" fill="#18181b" stroke="#a1a1aa" stroke-width="2.5"/>
+    <rect x="675.5" y="100.5" width="189" height="115" rx="10" fill="#232327" stroke="#3f3f46"/>
     <text x="770" y="137" text-anchor="middle" class="ti">IT Operations Intern</text>
     <text x="770" y="162" text-anchor="middle" class="pl">BNP Paribas</text>
     <text x="770" y="188" text-anchor="middle" class="lo">Hong Kong</text>
@@ -61,9 +61,9 @@
 
   <g class="n n5">
     <text x="990" y="46" text-anchor="middle" class="yr">2026 · NOW</text>
-    <circle class="pulse" cx="990" cy="70" r="7" fill="#58a6ff"/>
-    <circle cx="990" cy="70" r="7" fill="#58a6ff" stroke="#0d1117" stroke-width="2"/>
-    <rect x="895.5" y="100.5" width="189" height="115" rx="10" fill="#161b22" stroke="#58a6ff" stroke-opacity="0.6"/>
+    <circle class="pulse" cx="990" cy="70" r="7" fill="#d4d4d8"/>
+    <circle cx="990" cy="70" r="7" fill="#d4d4d8" stroke="#18181b" stroke-width="2"/>
+    <rect x="895.5" y="100.5" width="189" height="115" rx="10" fill="#232327" stroke="#d4d4d8" stroke-opacity="0.6"/>
     <text x="990" y="137" text-anchor="middle" class="ti">DevOps &amp; Cloud Trainee</text>
     <text x="990" y="162" text-anchor="middle" class="pl">BJIT Academy</text>
     <text x="990" y="188" text-anchor="middle" class="lo">Bangladesh</text>

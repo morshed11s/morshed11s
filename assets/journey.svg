@@ -65,7 +65,7 @@
     <circle cx="990" cy="70" r="7" fill="#d4d4d8" stroke="#18181b" stroke-width="2"/>
     <rect x="895.5" y="100.5" width="189" height="115" rx="10" fill="#232327" stroke="#d4d4d8" stroke-opacity="0.6"/>
     <text x="990" y="137" text-anchor="middle" class="ti">DevOps &amp; Cloud Trainee</text>
-    <text x="990" y="162" text-anchor="middle" class="pl">BJIT Academy</text>
+    <text x="990" y="162" text-anchor="middle" class="pl">BJIT Limited</text>
     <text x="990" y="188" text-anchor="middle" class="lo">Bangladesh</text>
   </g>
 </svg>

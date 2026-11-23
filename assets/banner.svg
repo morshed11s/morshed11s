@@ -58,8 +58,8 @@
   <rect x="58" y="124" width="64" height="3" rx="1.5" fill="url(#accent)"/>
   <text x="56" y="160" class="sub">DEVOPS  ·  CLOUD  ·  SOFTWARE ENGINEERING</text>
 
-  <text x="56" y="210" class="line l1"><tspan class="pr">$</tspan> building infrastructure that just works</text>
-  <text x="56" y="210" class="line l2"><tspan class="pr">$</tspan> terraform · docker · kubernetes · aws</text>
-  <text x="56" y="210" class="line l3"><tspan class="pr">$</tspan> observability with prometheus &amp; grafana</text>
-  <text x="56" y="210" class="line l4"><tspan class="pr">$</tspan> automating everything I touch</text>
+  <text x="56" y="210" class="line l1"><tspan class="pr">$</tspan> terraform plan -out=tfplan</text>
+  <text x="56" y="210" class="line l2"><tspan class="pr">$</tspan> docker build -t api:1.4.2 .</text>
+  <text x="56" y="210" class="line l3"><tspan class="pr">$</tspan> kubectl rollout status deploy/api</text>
+  <text x="56" y="210" class="line l4"><tspan class="pr">$</tspan> helm install monitoring kube-prometheus-stack</text>
 </svg>

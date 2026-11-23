@@ -13,7 +13,7 @@
 <h2 align="center">About Me</h2>
 
 <p align="center">
-  <img src="./assets/about.svg" width="100%" alt="About me: DevOps &amp; Cloud Trainee at BJIT Academy, B.Sc. Computer Science from Asian University for Women, based in Bangladesh"/>
+  <img src="./assets/about.svg" width="100%" alt="About me: DevOps &amp; Cloud Trainee at BJIT Limited, B.Sc. Computer Science from Asian University for Women, based in Bangladesh"/>
 </p>
 
 <h2 align="center">What I Do</h2>
@@ -72,7 +72,7 @@
 <h2 align="center">My Journey</h2>
 
 <p align="center">
-  <img src="./assets/journey.svg" width="100%" alt="2022 started CS at AUW, 2022–23 research intern at BILS, 2024 University of Tokyo exchange, 2025 IT Operations intern at BNP Paribas Hong Kong, 2026 DevOps &amp; Cloud trainee at BJIT Academy"/>
+  <img src="./assets/journey.svg" width="100%" alt="2022 started CS at AUW, 2022–23 research intern at BILS, 2024 University of Tokyo exchange, 2025 IT Operations intern at BNP Paribas Hong Kong, 2026 DevOps &amp; Cloud trainee at BJIT Limited"/>
 </p>
 
 <h2 align="center">Currently Working Toward</h2>

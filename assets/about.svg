@@ -30,12 +30,12 @@
 
   <g class="mono">
     <g class="row r1"><text x="20" y="88" class="num">1</text><text x="70" y="88"><tspan class="k">name</tspan><tspan class="p">: </tspan><tspan class="s">"Sumaiya Morshed"</tspan></text></g>
-    <g class="row r2"><text x="20" y="122" class="num">2</text><text x="70" y="122"><tspan class="k">role</tspan><tspan class="p">: </tspan><tspan class="v">DevOps &amp; Cloud Trainee @ BJIT Academy</tspan></text></g>
+    <g class="row r2"><text x="20" y="122" class="num">2</text><text x="70" y="122"><tspan class="k">role</tspan><tspan class="p">: </tspan><tspan class="v">DevOps &amp; Cloud Trainee @ BJIT Limited</tspan></text></g>
     <g class="row r3"><text x="20" y="156" class="num">3</text><text x="70" y="156"><tspan class="k">education</tspan><tspan class="p">: </tspan><tspan class="v">B.Sc. Computer Science, Asian University for Women</tspan></text></g>
     <g class="row r4"><text x="20" y="190" class="num">4</text><text x="70" y="190"><tspan class="k">based_in</tspan><tspan class="p">: </tspan><tspan class="v">Bangladesh</tspan></text></g>
     <g class="row r5"><text x="20" y="224" class="num">5</text><text x="70" y="224"><tspan class="k">focus</tspan><tspan class="p">: </tspan><tspan class="b">[</tspan><tspan class="v">Cloud Infrastructure, CI/CD, Containers, IaC, Observability</tspan><tspan class="b">]</tspan></text></g>
     <g class="row r6"><text x="20" y="258" class="num">6</text><text x="70" y="258"><tspan class="k">learning_now</tspan><tspan class="p">: </tspan><tspan class="b">[</tspan><tspan class="v">AWS Solutions Architect</tspan><tspan class="b">]</tspan></text></g>
-    <g class="row r7"><text x="20" y="292" class="num">7</text><text x="70" y="292"><tspan class="k">motto</tspan><tspan class="p">: </tspan><tspan class="s">"I'd rather spend 3 hours automating than 3 minutes doing it by hand."</tspan></text></g>
+    <g class="row r7"><text x="20" y="292" class="num">7</text><text x="70" y="292"><tspan class="k">previously</tspan><tspan class="p">: </tspan><tspan class="v">IT Operations Intern @ BNP Paribas, Hong Kong</tspan></text></g>
     <g class="row r8"><text x="20" y="334" class="num">8</text><text x="70" y="334" class="p">❯</text><rect class="cursor" x="90" y="319" width="9" height="19"/></g>
   </g>
 </svg>

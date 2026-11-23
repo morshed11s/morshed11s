@@ -10,5 +10,5 @@
     </style>
   </defs>
   <rect x="0" y="12" width="1200" height="1" fill="url(#fg)"/>
-  <text x="600" y="44" text-anchor="middle" class="t">thanks for stopping by — let's build something reliable</text>
+  <text x="600" y="44" text-anchor="middle" class="t">$ exit 0</text>
 </svg>

@@ -1,54 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#fff7fb"/>
-      <stop offset="35%" stop-color="#f3eeff"/>
-      <stop offset="70%" stop-color="#eef8ff"/>
-      <stop offset="100%" stop-color="#fff9ef"/>
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b2e"/>
     </linearGradient>
-    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#cfe9ff"/>
-      <stop offset="100%" stop-color="#e7d6ff"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#3fb9c9"/>
     </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.4" r="0.5">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="260" rx="14"/></clipPath>
     <style>
-      .name { font: 700 58px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #4b3d75; letter-spacing: 1px; }
-      .sub  { font: 600 20px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #7a6ac0; letter-spacing: 3px; }
-      .line { font: 500 20px Consolas, 'Courier New', monospace; fill: #5a7fd5; opacity: 0; }
+      .name { font: 700 54px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #e6edf3; letter-spacing: 0.5px; }
+      .sub  { font: 600 15px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #8b949e; letter-spacing: 4px; }
+      .line { font: 500 18px Consolas, Menlo, 'Courier New', monospace; fill: #79c0ff; opacity: 0; }
+      .pr   { fill: #3fb950; }
       .l1 { animation: show 12s infinite 0s; }
       .l2 { animation: show 12s infinite 3s; }
       .l3 { animation: show 12s infinite 6s; }
       .l4 { animation: show 12s infinite 9s; }
-      @keyframes show {
-        0%   { opacity: 0; }
-        3%   { opacity: 1; }
-        22%  { opacity: 1; }
-        25%  { opacity: 0; }
-        100% { opacity: 0; }
-      }
-      .wave1 { animation: drift 11s ease-in-out infinite alternate; }
-      .wave2 { animation: drift 15s ease-in-out infinite alternate-reverse; }
-      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-60px); } }
-      .cursor { fill: #6e82d7; animation: blink 1s steps(1) infinite; }
-      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes show { 0% { opacity: 0; } 3% { opacity: 1; } 22% { opacity: 1; } 25% { opacity: 0; } 100% { opacity: 0; } }
+      .node { animation: pulse 3s ease-in-out infinite; }
+      .d2 { animation-delay: 1s; } .d3 { animation-delay: 2s; }
+      @keyframes pulse { 0%,100% { opacity: 0.45; } 50% { opacity: 1; } }
     </style>
   </defs>
 
-  <rect width="1200" height="280" rx="26" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="260" fill="url(#bg)"/>
+    <rect width="1200" height="260" fill="url(#grid)"/>
+    <rect width="1200" height="260" fill="url(#glow)"/>
 
-  <g opacity="0.7">
-    <circle cx="90" cy="60" r="2.5" fill="#f7bfd3"/><circle cx="260" cy="40" r="2" fill="#b9d9ff"/>
-    <circle cx="980" cy="50" r="2.5" fill="#d7c9ff"/><circle cx="1110" cy="90" r="2" fill="#bfe7d3"/>
-    <circle cx="700" cy="30" r="2" fill="#f9d6a5"/><circle cx="420" cy="80" r="1.8" fill="#b9d9ff"/>
+    <!-- abstract infrastructure graph -->
+    <g stroke="#30363d" stroke-width="1.5" fill="none">
+      <path d="M870 70 L960 120 L1060 80 M960 120 L940 200 L1060 180 L1060 80 M1060 180 L1130 130 L1060 80"/>
+    </g>
+    <g fill="#161b22" stroke="#58a6ff" stroke-width="2">
+      <circle class="node" cx="870" cy="70" r="6"/>
+      <circle class="node d2" cx="960" cy="120" r="8"/>
+      <circle class="node d3" cx="1060" cy="80" r="6"/>
+      <circle class="node d2" cx="940" cy="200" r="5"/>
+      <circle class="node" cx="1060" cy="180" r="7"/>
+      <circle class="node d3" cx="1130" cy="130" r="5"/>
+    </g>
+
+    <rect x="0" y="0" width="1200" height="3" fill="url(#accent)"/>
   </g>
+  <rect x="0.5" y="0.5" width="1199" height="259" rx="14" fill="none" stroke="#30363d"/>
 
-  <path class="wave1" d="M0 230 C200 200 400 260 600 230 S1000 200 1260 230 V280 H0 Z" fill="url(#wave1)" opacity="0.62"/>
-  <path class="wave2" d="M0 250 C250 225 450 275 700 250 S1050 225 1260 250 V280 H0 Z" fill="#d7c9ff" opacity="0.55"/>
+  <text x="56" y="104" class="name">Sumaiya Morshed</text>
+  <rect x="58" y="124" width="64" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="56" y="160" class="sub">DEVOPS  ·  CLOUD  ·  SOFTWARE ENGINEERING</text>
 
-  <text x="48" y="110" text-anchor="start" class="name">Sumaiya Morshed</text>
-  <text x="48" y="148" text-anchor="start" class="sub">DEVOPS • CLOUD • SOFTWARE ENGINEERING</text>
-
-  <text x="48" y="198" text-anchor="start" class="line l1">&gt; Building infrastructure that just works ☁️</text>
-  <text x="48" y="198" text-anchor="start" class="line l2">&gt; Terraform • Docker • Kubernetes • AWS</text>
-  <text x="48" y="198" text-anchor="start" class="line l3">&gt; Java &amp; Spring Boot developer</text>
-  <text x="48" y="198" text-anchor="start" class="line l4">&gt; Automating everything I touch 🤖</text>
+  <text x="56" y="210" class="line l1"><tspan class="pr">$</tspan> building infrastructure that just works</text>
+  <text x="56" y="210" class="line l2"><tspan class="pr">$</tspan> terraform · docker · kubernetes · aws</text>
+  <text x="56" y="210" class="line l3"><tspan class="pr">$</tspan> observability with prometheus &amp; grafana</text>
+  <text x="56" y="210" class="line l4"><tspan class="pr">$</tspan> automating everything I touch</text>
 </svg>

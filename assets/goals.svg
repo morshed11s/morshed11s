@@ -1,52 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 340" width="1100" height="340">
   <defs>
     <linearGradient id="done" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#c9c0ff"/>
-      <stop offset="100%" stop-color="#a4d8c4"/>
+      <stop offset="0%" stop-color="#238636"/>
+      <stop offset="100%" stop-color="#3fb950"/>
     </linearGradient>
     <style>
-      .l  { font: 700 17px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #4d486c; }
-      .s  { font: 400 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #707391; }
-      .pt { font: 700 11px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 1.5px; }
+      .l  { font: 600 17px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #e6edf3; }
+      .s  { font: 400 13px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #8b949e; }
+      .pt { font: 700 10.5px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; letter-spacing: 1.5px; }
       .bar { transform-box: fill-box; transform-origin: left center; animation: grow 1.4s ease-out backwards; }
       .b1 { animation-delay: 0.2s; } .b2 { animation-delay: 0.5s; }
       @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
       .next { animation: glow 2.4s ease-in-out infinite; }
-      @keyframes glow { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
+      @keyframes glow { 0%,100% { opacity: 0.6; } 50% { opacity: 1; } }
     </style>
   </defs>
 
-  <rect x="1" y="1" width="1098" height="338" rx="16" fill="#fffafc" stroke="#e7dffe" stroke-width="1.5"/>
+  <rect x="0.5" y="0.5" width="1099" height="339" rx="12" fill="#0d1117" stroke="#30363d"/>
 
-  <circle cx="50" cy="52" r="14" fill="#a5d8b1"/>
-  <path d="M43 52 l5 5 l9 -10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="52" r="13" fill="#238636"/>
+  <path d="M44 52 l4.5 4.5 l8 -9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="80" y="50" class="l">Hands-on AWS</text>
   <text x="80" y="70" class="s">VPC, EC2, S3, RDS/Aurora, Lambda, Route 53, CloudFront</text>
-  <rect x="980" y="36" width="90" height="24" rx="12" fill="#bfead0" fill-opacity="0.8" stroke="#8ec9a7"/>
-  <text x="1025" y="52" text-anchor="middle" class="pt" fill="#4e8d67">DONE</text>
-  <rect x="80" y="82" width="990" height="6" rx="3" fill="#efe9f9"/>
-  <rect class="bar b1" x="80" y="82" width="990" height="6" rx="3" fill="url(#done)"/>
+  <rect x="980.5" y="36.5" width="90" height="24" rx="12" fill="#3fb950" fill-opacity="0.12" stroke="#3fb950" stroke-opacity="0.5"/>
+  <text x="1025" y="52.5" text-anchor="middle" class="pt" fill="#3fb950">DONE</text>
+  <rect x="80" y="84" width="990" height="5" rx="2.5" fill="#21262d"/>
+  <rect class="bar b1" x="80" y="84" width="990" height="5" rx="2.5" fill="url(#done)"/>
 
-  <circle cx="50" cy="130" r="14" fill="#a5d8b1"/>
-  <path d="M43 130 l5 5 l9 -10" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="130" r="13" fill="#238636"/>
+  <path d="M44 130 l4.5 4.5 l8 -9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="80" y="128" class="l">Containers &amp; Orchestration</text>
   <text x="80" y="148" class="s">Docker images, Kubernetes deployments and services</text>
-  <rect x="980" y="114" width="90" height="24" rx="12" fill="#bfead0" fill-opacity="0.8" stroke="#8ec9a7"/>
-  <text x="1025" y="130" text-anchor="middle" class="pt" fill="#4e8d67">DONE</text>
-  <rect x="80" y="160" width="990" height="6" rx="3" fill="#efe9f9"/>
-  <rect class="bar b2" x="80" y="160" width="990" height="6" rx="3" fill="url(#done)"/>
+  <rect x="980.5" y="114.5" width="90" height="24" rx="12" fill="#3fb950" fill-opacity="0.12" stroke="#3fb950" stroke-opacity="0.5"/>
+  <text x="1025" y="130.5" text-anchor="middle" class="pt" fill="#3fb950">DONE</text>
+  <rect x="80" y="162" width="990" height="5" rx="2.5" fill="#21262d"/>
+  <rect class="bar b2" x="80" y="162" width="990" height="5" rx="2.5" fill="url(#done)"/>
 
-  <circle cx="50" cy="208" r="13" fill="none" stroke="#f6c98d" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <circle cx="50" cy="208" r="12" fill="none" stroke="#d29922" stroke-width="2.2" stroke-dasharray="4 3"/>
   <text x="80" y="206" class="l">AWS Certified Cloud Practitioner</text>
   <text x="80" y="226" class="s">Foundational AWS certification</text>
-  <rect class="next" x="980" y="192" width="90" height="24" rx="12" fill="#f8e5b7" fill-opacity="0.7" stroke="#efc57d"/>
-  <text x="1025" y="208" text-anchor="middle" class="pt" fill="#b6782d">UP NEXT</text>
-  <rect x="80" y="238" width="990" height="6" rx="3" fill="#efe9f9"/>
+  <rect class="next" x="980.5" y="192.5" width="90" height="24" rx="12" fill="#d29922" fill-opacity="0.12" stroke="#d29922" stroke-opacity="0.6"/>
+  <text x="1025" y="208.5" text-anchor="middle" class="pt" fill="#e3b341">UP NEXT</text>
+  <rect x="80" y="240" width="990" height="5" rx="2.5" fill="#21262d"/>
 
-  <circle cx="50" cy="286" r="13" fill="none" stroke="#f6c98d" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <circle cx="50" cy="286" r="12" fill="none" stroke="#d29922" stroke-width="2.2" stroke-dasharray="4 3"/>
   <text x="80" y="284" class="l">AWS Certified Solutions Architect – Associate</text>
   <text x="80" y="304" class="s">Designing resilient, cost-aware architectures on AWS</text>
-  <rect class="next" x="980" y="270" width="90" height="24" rx="12" fill="#f8e5b7" fill-opacity="0.7" stroke="#efc57d"/>
-  <text x="1025" y="286" text-anchor="middle" class="pt" fill="#b6782d">UP NEXT</text>
-  <rect x="80" y="316" width="990" height="6" rx="3" fill="#efe9f9"/>
+  <rect class="next" x="980.5" y="270.5" width="90" height="24" rx="12" fill="#d29922" fill-opacity="0.12" stroke="#d29922" stroke-opacity="0.6"/>
+  <text x="1025" y="286.5" text-anchor="middle" class="pt" fill="#e3b341">UP NEXT</text>
+  <rect x="80" y="318" width="990" height="5" rx="2.5" fill="#21262d"/>
 </svg>

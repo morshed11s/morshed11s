@@ -1,58 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 230" width="1100" height="230">
   <defs>
-    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fff9fd"/>
-      <stop offset="100%" stop-color="#f3f8ff"/>
-    </linearGradient>
-    <linearGradient id="topbar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#bdb6ff"/>
-      <stop offset="100%" stop-color="#9ed9d3"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#3fb9c9"/>
     </linearGradient>
     <style>
-      .t  { font: 700 20px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #4e4775; }
-      .d  { font: 400 14px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #5d607b; }
-      .tl { font: 500 13px Consolas, Menlo, 'Courier New', monospace; fill: #6c75d8; }
+      .t  { font: 600 19px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #e6edf3; }
+      .d  { font: 400 14px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #8b949e; }
+      .tl { font: 500 12.5px Consolas, Menlo, 'Courier New', monospace; fill: #79c0ff; }
       .c  { animation: up 0.6s ease-out backwards; }
-      .c1 { animation-delay: 0.1s; } .c2 { animation-delay: 0.35s; } .c3 { animation-delay: 0.6s; }
-      @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+      .c1 { animation-delay: 0.1s; } .c2 { animation-delay: 0.3s; } .c3 { animation-delay: 0.5s; }
+      @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
     </style>
   </defs>
 
   <g class="c c1">
-    <rect x="10" y="15" width="340" height="200" rx="16" fill="url(#card)" stroke="#d9d4ff" stroke-width="1.5"/>
-    <rect x="30" y="15" width="300" height="4" rx="2" fill="url(#topbar)"/>
-    <circle cx="60" cy="72" r="28" fill="#cfe9ff" fill-opacity="0.9"/>
-    <path d="M46 82 h28 a9 9 0 0 0 0 -18 a12 12 0 0 0 -23 -3 a8 8 0 0 0 -5 21 z" fill="none" stroke="#6b8fe4" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="104" y="79" class="t">Cloud Infrastructure</text>
+    <rect x="10.5" y="15.5" width="340" height="200" rx="12" fill="#0d1117" stroke="#30363d"/>
+    <rect x="11" y="16" width="339" height="3" rx="1.5" fill="url(#accent)"/>
+    <rect x="34" y="46" width="48" height="48" rx="10" fill="#161b22" stroke="#30363d"/>
+    <path d="M45 80 h26 a8 8 0 0 0 0 -16 a11 11 0 0 0 -21 -3 a7 7 0 0 0 -5 19 z" fill="none" stroke="#58a6ff" stroke-width="2.2" stroke-linejoin="round"/>
+    <text x="98" y="77" class="t">Cloud Infrastructure</text>
     <text x="35" y="132" class="d">Secure VPCs, private subnets, load</text>
     <text x="35" y="154" class="d">balancers and CDNs on AWS</text>
-    <text x="35" y="192" class="tl">EC2 · VPC · ALB · CloudFront</text>
+    <line x1="35" y1="172" x2="325" y2="172" stroke="#21262d"/>
+    <text x="35" y="196" class="tl">EC2 · VPC · ALB · CloudFront</text>
   </g>
 
   <g class="c c2">
-    <rect x="380" y="15" width="340" height="200" rx="16" fill="url(#card)" stroke="#d9d4ff" stroke-width="1.5"/>
-    <rect x="400" y="15" width="300" height="4" rx="2" fill="url(#topbar)"/>
-    <circle cx="430" cy="72" r="28" fill="#f9dfe7" fill-opacity="0.9"/>
-    <path d="M430 72 c-6 -9 -18 -9 -18 0 s12 9 18 0 c6 -9 18 -9 18 0 s-12 9 -18 0 z" fill="none" stroke="#d07aa0" stroke-width="2.5"/>
-    <text x="474" y="79" class="t">CI/CD &amp; Automation</text>
+    <rect x="380.5" y="15.5" width="340" height="200" rx="12" fill="#0d1117" stroke="#30363d"/>
+    <rect x="381" y="16" width="339" height="3" rx="1.5" fill="url(#accent)"/>
+    <rect x="404" y="46" width="48" height="48" rx="10" fill="#161b22" stroke="#30363d"/>
+    <path d="M428 70 c-5 -8 -16 -8 -16 0 s11 8 16 0 c5 -8 16 -8 16 0 s-11 8 -16 0 z" fill="none" stroke="#58a6ff" stroke-width="2.2"/>
+    <text x="468" y="77" class="t">CI/CD &amp; Automation</text>
     <text x="405" y="132" class="d">Pipelines that build, test and scan</text>
     <text x="405" y="154" class="d">code before it ships</text>
-    <text x="405" y="192" class="tl">Jenkins · Bash · Python · Ansible</text>
+    <line x1="405" y1="172" x2="695" y2="172" stroke="#21262d"/>
+    <text x="405" y="196" class="tl">Jenkins · Bash · Python · Ansible</text>
   </g>
 
   <g class="c c3">
-    <rect x="750" y="15" width="340" height="200" rx="16" fill="url(#card)" stroke="#d9d4ff" stroke-width="1.5"/>
-    <rect x="770" y="15" width="300" height="4" rx="2" fill="url(#topbar)"/>
-    <circle cx="800" cy="72" r="28" fill="#dff6e8" fill-opacity="0.9"/>
-    <g fill="none" stroke="#63b691" stroke-width="2.5">
-      <rect x="786" y="58" width="12" height="12" rx="2"/>
-      <rect x="802" y="58" width="12" height="12" rx="2"/>
-      <rect x="786" y="74" width="12" height="12" rx="2"/>
-      <rect x="802" y="74" width="12" height="12" rx="2"/>
+    <rect x="750.5" y="15.5" width="340" height="200" rx="12" fill="#0d1117" stroke="#30363d"/>
+    <rect x="751" y="16" width="339" height="3" rx="1.5" fill="url(#accent)"/>
+    <rect x="774" y="46" width="48" height="48" rx="10" fill="#161b22" stroke="#30363d"/>
+    <g fill="none" stroke="#58a6ff" stroke-width="2.2">
+      <rect x="786" y="58" width="11" height="11" rx="2"/>
+      <rect x="800" y="58" width="11" height="11" rx="2"/>
+      <rect x="786" y="72" width="11" height="11" rx="2"/>
+      <rect x="800" y="72" width="11" height="11" rx="2"/>
     </g>
-    <text x="844" y="79" class="t">Containers &amp; IaC</text>
+    <text x="838" y="77" class="t">Containers &amp; IaC</text>
     <text x="775" y="132" class="d">Reproducible apps and infrastructure</text>
     <text x="775" y="154" class="d">defined entirely as code</text>
-    <text x="775" y="192" class="tl">Docker · Kubernetes · Terraform</text>
+    <line x1="775" y1="172" x2="1065" y2="172" stroke="#21262d"/>
+    <text x="775" y="196" class="tl">Docker · Kubernetes · Terraform</text>
   </g>
 </svg>
